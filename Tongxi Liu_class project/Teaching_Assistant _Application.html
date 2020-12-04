@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Dept.of Comp.Sci.</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/Teaching_Assistant%20_Application.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/image_gallery.js"></script>
+</head>
+
+<body>
+	<header>
+        <img src="images/AUM_schoolname_Black02.jpg" alt="AUM_schoolname" width="300px">
+        <h2>Department of Computer Science and Computer Information System</h2>
+    </header>
+    
+    <main>
+        <nav id="nav_menu">
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="department_description.html">Department Description</a></li>
+                <li><a href="Teaching_Assistant _Application.html">Assistant Application</a></li>
+                <li><a href="GPA_calculate.html">GPA calculate</a></li>
+                <li><a href="more_information.html">More Information</a></li>
+            </ul>
+        </nav>
+        
+        <div id="form">
+            <section>
+                <h1>Teaching Assistant Application</h1>
+                <form name="myform" action="extra/survey_data.html" method="get">
+
+                    <h2>Personal information</h2>
+                    <label for="firstname">First name:</label>
+                    <input type="text" name="firstname" id="firstname"><br>
+
+                    <label for="lastname">Last name:</label>
+                    <input type="text" name="lastname" id="lastname"><br>
+
+                    <label for="gender_male">Male</label>
+                    <input type="checkbox" value="gender_male" name="gender_male" id="gender_male"><br>
+
+                    <label for="gender_female">Female</label>
+                    <input type="checkbox" value="gender_female" name="gender_female" id="gender_female"><br>
+
+                    <label for="Student ID">Student ID:</label>
+                    <input type="text" name="Student ID" id="Student ID" placeholder="Eight characters" pattern="\d{8}"><br>
+
+                    <label for="GPA">GPA:</label>
+                    <input type="text" name="GPA" id="GPA" placeholder="GPA" pattern="^\\d+(\\.\\d+)?${3}"><br>
+                    <h2>Thank you for taking our survey!</h2>
+
+                    <input type="submit" name="button" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset"> 
+                </form>
+            </section>
+        </div>
+        
+
+    </main>
+    					
+
+    <footer>
+        <p>&copy; All Rights Reserved. Auburn University at Montgomery</p>
+        <p>Author: Tongxi Liu</p>
+    </footer>    
+</body>
+</html>

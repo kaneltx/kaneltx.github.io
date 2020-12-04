@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Dept.of Comp.Sci.</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_GPA_calculate.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/gpa.js"></script>
+</head>
+
+<body>
+	<header>
+        <img src="images/AUM_schoolname_Black02.jpg" alt="AUM_schoolname" width="300px">
+        <h2>Department of Computer Science and Computer Information System</h2>
+    </header>
+    
+    <main>
+        <nav id="nav_menu">
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="department_description.html">Department Description</a></li>
+                <li><a href="Teaching_Assistant _Application.html">Assistant Application</a></li>
+                <li><a href="GPA_calculate.html">GPA calculate</a></li>
+                <li><a href="more_information.html">More Information</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <h1>Use a Test Score array</h1>
+                <label for="name">Course Name:</label>
+                <input type="text" id="name"><br>
+
+                <label for="grade">Your Numeric Grade:</label>
+                <input type="text" id="grade"><br>
+
+                <label for="hour">Credit Hour:</label>
+                <input type="text" id="hour"><br>
+
+                <label>&nbsp;</label>
+                <input type="button" id="add" value="Add to Transcript" >
+                <input type="button" id="Display_GPA" value="Display GPA" ><br>
+                <input type="button" id="Display_Transcript" value="Display Transcript" >
+
+                <div id="results"></div>
+                <table id="Transcript"></table>
+        </section>
+
+    </main>
+    					
+
+    <footer>
+        <p>&copy; All Rights Reserved. Auburn University at Montgomery</p>
+        <p>Author: Tongxi Liu</p>
+    </footer>    
+</body>
+</html>
